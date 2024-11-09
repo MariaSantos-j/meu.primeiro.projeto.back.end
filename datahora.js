@@ -6,11 +6,11 @@ const porta = 3333
 const data = new Date()
 const horario = data.toLocaleTimeString('pt-BR')
 
-function mostraHora(resquest, response) {
+function mostraHora(request, response) {
 response.send(horario)
 }
 
-function mostraData(resquest, response) {
+function mostraData(request, response) {
     response.send(data)
 
 }
